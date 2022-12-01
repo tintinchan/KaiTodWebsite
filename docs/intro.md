@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial Introooo ก
-Xia_O
+# Tutorial Introooo 
 
 Let's discover **Docusaurus in less than 5 minutes**.
 sdasdsda
