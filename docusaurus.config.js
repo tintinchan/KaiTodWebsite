@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'คอม คอม คอม',
+  tagline: 'ลิง กัง',
   url: 'https://kaitod.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -51,7 +51,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'ไก่ทอด',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -61,7 +61,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'คอมพิวเตอร์เบื้องต้น',
           },
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -77,7 +77,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'คอมพิวเตอร์เบื้องต้น',
                 to: '/docs/intro',
               },
             ],
@@ -96,6 +96,15 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
