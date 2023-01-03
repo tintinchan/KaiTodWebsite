@@ -6,6 +6,7 @@ sidebar_position: 1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 sdasdsda
+<p>sadwasdsadasd</p>
 
 ## Getting Started
 
