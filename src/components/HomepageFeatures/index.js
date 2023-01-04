@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        วานร เป็นชื่อสามัญของสัตว์ในไฟลัมสัตว์มีแกนสันหลัง ชั้นสัตว์เลี้ยงลูกด้วยนม จัดอยู่ในอันดับวานร (Primates) ลักษณะท่าทางคล้ายมนุษย์ ซึ่งจัดอยู่ในอันดับเดียวกัน เนื่องจากมีบรรพบุรุษร่วมกันมา ก่อนที่จะมีวิวัฒนาการแยกตัวออกจากกัน เมื่อ 2-3 ล้านปีก่อน
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        ลิงมีตีนหน้าและตีนหลังใช้จับเกาะได้ มักปีนหากินบนต้นไม้ได้อย่างคล่องแคล่ว พวกที่มีหาง เช่น ลิงวอก และพวกที่ไม่มีหาง เช่น กอริลลา เป็นต้น
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        ลิง เป็นสัตว์ที่มนุษย์รับรู้เป็นอย่างดีว่า เป็นสัตว์ที่ว่องไว มีความซุกซน อยู่ไม่นิ่ง จนมีคำเปรียบเทียบในสำนวนไทยว่า "ซนเหมือนลิง" โดยเฉพาะใช้กับเด็ก
       </>
     ),
   },
