@@ -1,11 +1,55 @@
 .features {
   display: flex;
-  align-items: center;
+  align-items: right;
   padding: 2rem 0;
   width: 100%;
+  z-index: 1;
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+.sloganStyle {
+  border: solid;
+  border: 1px;
+  border-radius: 50px;
+  border-color: #5db0f0db;
+  background-color: #5db0f0db;
+}
+html[data-theme="light"] .sloganStyle{
+  color: black;
+}
+
+.featureStyle{
+  visibility: hidden;
+}
+
+.backgroundRay {
+  position: absolute;
+}
+
+.svgLine {
+  fill:aliceblue;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.featureBorder {
+  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.title {
+  font-size: xxx-large;
+}
+
+.description {
+  font-size: x-large;
 }

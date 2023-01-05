@@ -116,6 +116,11 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    stylesheets: [
+      {
+        href: 'https://fonts.googleapis.com/css?family=Noto+Sans+Thai',
+      },
+    ],
 };
 
 module.exports = config;
