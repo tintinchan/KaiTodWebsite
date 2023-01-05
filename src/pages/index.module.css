@@ -47,5 +47,5 @@
   transform: scale(1.01);
 }
 
-.main { position: relative; }
+.main { position: relative; z-index: -1;}
 

@@ -11,8 +11,33 @@
   width: 200px;
 }
 
-.featureStyle {
+.sloganStyle {
+  border: solid;
+  border: 1px;
+  border-radius: 50px;
+  border-color: #5db0f0db;
+  background-color: #5db0f0db;
+}
+html[data-theme="light"] .sloganStyle{
+  color: black;
+}
 
+.featureStyle{
+  visibility: hidden;
+}
+
+.backgroundRay {
+  position: absolute;
+}
+
+.svgLine {
+  fill:aliceblue;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.featureBorder {
+  
 }
 
 .column {
@@ -26,5 +51,5 @@
 }
 
 .description {
-  font-size: large;
+  font-size: x-large;
 }
