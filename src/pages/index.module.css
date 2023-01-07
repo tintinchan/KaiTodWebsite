@@ -15,11 +15,7 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .container {
   /* margin: var(--ifm-spacing-horizontal) auto; */
@@ -47,5 +43,5 @@
   transform: scale(1.01);
 }
 
-.main { position: relative; z-index: -1;}
+.main { position: relative; overflow: hidden;}
 

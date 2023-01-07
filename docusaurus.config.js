@@ -64,7 +64,7 @@ const config = {
             label: 'คอมพิวเตอร์เบื้องต้น',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tintinchan/KaiTodWebsite',
             label: 'GitHub',
             position: 'right',
           },
@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/tintinchan/KaiTodWebsite',
               },
             ],
           },

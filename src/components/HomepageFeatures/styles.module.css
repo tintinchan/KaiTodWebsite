@@ -12,19 +12,30 @@
 }
 
 .sloganStyle {
-  border: solid;
-  border: 1px;
+  border: solid 3px;
   border-radius: 50px;
-  border-color: #5db0f0db;
-  background-color: #5db0f0db;
+  border-color: #00000008;
+  background-color: #011d3bbd;
+  color: var(--ifm-color-content);
+  transition: .2s;
 }
 html[data-theme="light"] .sloganStyle{
-  color: black;
+  border-color: #00000008;
+  background-color: #c3caee99;
 }
 
-.featureStyle{
-  visibility: hidden;
+
+.buttonStyle{
+  /* visibility: hidden; */
+  padding-top: 2rem;
+  margin-bottom: 3vw;
 }
+
+/* .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 .backgroundRay {
   position: absolute;
@@ -52,4 +63,88 @@ html[data-theme="light"] .sloganStyle{
 
 .description {
   font-size: x-large;
+}
+
+
+
+/***************** *************/
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+      flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+/*   padding: 2em 0em; */
+}
+html[data-theme="light"] .btn{
+  color: #000000;
+}
+.btn {
+  justify-content: center;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: xxx-large;
+  text-align: center;
+  height: 80px;
+  position: relative;
+  text-decoration:solid;
+  width: 100%;
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.effect04 {
+  --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+  display: var(--uismLinkDisplay);
+  color: #000;
+  outline: solid  5px #000;
+  position: relative;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+.effect04::before,
+.effect04 span{
+    margin: 0 auto;
+	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	transition-duration: 0.4s;
+}
+
+/* 文字1を上に */
+.effect04:hover{
+
+  background-color: #000;
+}
+
+/* HOVERしたら文字1を上に */
+.effect04:hover span{
+  -webkit-transform: translateY(-400%) scale(-0.1,20);
+          transform: translateY(-400%) scale(-0.1,20);
+}
+
+/*文字2*/
+.effect04::before{
+  content: attr(data-sm-link-text);
+	color: #ebedf0;
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: translateY(500%) scale(-0.1,20);
+          transform: translateY(500%) scale(-0.1,20);
+}
+
+/* HOVERしたら文字2を上に */
+.effect04:hover::before{
+  letter-spacing: 0.05em;
+  visibility: unset;
+  -webkit-transform: translateY(0) scale(1,1);
+          transform: translateY(0) scale(1,1);
 }
