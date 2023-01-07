@@ -4,7 +4,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -41,7 +40,7 @@ export default function Home() {
               src="https://cdn.discordapp.com/attachments/986230290487848971/1060214521861521528/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-as274382882.jpg" 
               className={styles.img} 
               alt="Banner Image">
-            </img>
+            </img>   
           </div>
           <HomepageFeatures/>
         </div>
